@@ -22,7 +22,7 @@ jobs:
     #- name: Build
      # run: dotnet build --no-restore
    
-    - name: Build dotnet
+    - name: Build WITH dotnet
       run: dotnet build --configuration Release
     - name: dotnet publish
       run: |
