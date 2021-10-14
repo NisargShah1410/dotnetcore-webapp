@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dotnetcore-webapp
+  name: backstage
+  description: backstage.io
   annotations:
-    github.com/project-slug: NisargShah1410/dotnetcore-webapp
+    github.com/project-slug: 'NisargShah1410/dotnetcore-webapp'
 spec:
-  type: other
-  lifecycle: unknown
-  owner: backstage
+  type: website
+  lifecycle: production
+  owner: NisargShah1410
