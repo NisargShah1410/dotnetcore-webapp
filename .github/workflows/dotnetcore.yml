@@ -20,7 +20,7 @@ jobs:
     - run: echo "GITHUB_WORKFLOW=Workflow name from step" >> $GITHUB_ENV
     - uses: actions/checkout@v1
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v3.0.2
       with:
         dotnet-version: 3.0.100
     
